@@ -24,59 +24,66 @@
 
 <div id="header">
 
-    <div id="top_menu" class="navbar d-flex">
-        <div class="me-5"></div>
-        <div class="telnum">C/S CENTER
-            <span>02-6299-5684</span>
-        </div>
-        <div class="combtn dropdown me-md-auto">
-            <a class="nav-link dropdown-toggle" href="#none" id="navbarDropdown" role="button"
-               data-bs-toggle="dropdown" aria-expanded="false">
-                <!--                <img src="..." alt="아이콘">-->
-                <i class="fas fa-align-justify"></i>
-                COMMUNITY
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">NEWS</a></li>
-                <li><a class="dropdown-item" href="#">Q&amp;A</a></li>
-                <li><a class="dropdown-item" href="#">REVIEW</a></li>
-                <li><a class="dropdown-item" href="#">EVENT</a></li>
+    <nav id="top_menu" class="navbar navbar-expand-md navbar-light d-flex">
+
+        <div class="col-9">
+            <ul class="navbar-nav">
+                <li class="me-5"></li>
+                <li id="telnum" class="nav-item mt-2 me-2">
+                    <div>C/S CENTER<span>02-6299-5684</span></div>
+                </li>
+                <li id="combtn" class="nav-item dropdown">
+                    <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#none" role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <!--                <img src="..." alt="아이콘">-->
+                        <i class="fas fa-align-justify"></i>
+                        COMMUNITY
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">NEWS</a></li>
+                        <li><a class="dropdown-item" href="#">Q&amp;A</a></li>
+                        <li><a class="dropdown-item" href="#">REVIEW</a></li>
+                        <li><a class="dropdown-item" href="#">EVENT</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
-        <div class="search nav">
-            <li class="nav-item"><a class="pe-3" href="#">LOGIN</a></li>
-            <li class="nav-item"><a class="pe-3" href="#">JOIN</a></li>
-            <li class="nav-item"><a class="pe-3" href="#">CART
-                <span>0</span></a></li>
-            <li class="nav-item"><a class="pe-3" href="#">ORDER</a></li>
-            <li class="nav-item"><a class="pe-3" href="#">MY PAGE</a></li>
-            <li class="nav-item"><i class="pe-3 fas fa-search" href="#"></i></li>
+        <div class="col-3">
+            <ul id="search" class="navbar-nav nav">
+                <li class="nav-item"><a class="nav-link pe-2" href="#">LOGIN</a></li>
+                <li class="nav-item"><a class="nav-link pe-2" href="#">JOIN</a></li>
+                <li class="nav-item"><a class="nav-link pe-2" href="#">CART
+                    <span>0</span></a></li>
+                <li class="nav-item"><a class="nav-link pe-2" href="#">ORDER</a></li>
+                <li class="nav-item"><a class="nav-link pe-2" href="#">MY PAGE</a></li>
+                <li class="nav-item"><i class="nav-link mt-1 fas fa-search" href="#"></i></li>
+            </ul>
         </div>
-        <ul>
-            <!--        something    -->
-        </ul>
 
-    </div>
+
+    </nav>
 
 
 </div>
 
 <div class="k">
 
-    <nav class="main_menu navbar navbar-expand-md">
+    <nav class="main_menu navbar navbar-expand-md navbar-light">
 
         <div class="me-5"></div>
+
         <div class="logo mr-auto">
-            <a href="/">
-                <!--<img src="..." alt="...">-->
-                <img src="https://user-images.githubusercontent.com/81312250/145674551-341b53cc-2040-47eb-ba82-4d710207c83b.png" alt="">
+            <a href="...">
+                <!--                <img src="..." alt="...">-->
+                <img src="https://user-images.githubusercontent.com/81312250/145674551-341b53cc-2040-47eb-ba82-4d710207c83b.png"
+                     alt="">
 
             </a>
         </div>
         <div class="main_category mx-auto">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link pe-5" href="/about">ABOUT</a>
+                    <a class="nav-link pe-5" href="#">ABOUT</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link pe-5" href="#">STORE</a>
@@ -85,73 +92,48 @@
                     <a class="nav-link pe-5" href="#">100주년</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link pe-5 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link pe-5 dropdown-toggle" href="#" id="navbarDropdown1" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
                         KITCHEN
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">보관용기</a></li>
-                        <li><a class="dropdown-item" href="#">커피메이커</a></li>
-                        <li><a class="dropdown-item" href="#">주전자</a></li>
-                        <li><a class="dropdown-item" href="#">냄비&팬</a></li>
-                        <li><a class="dropdown-item" href="#">전자제품</a></li>
-                        <li><a class="dropdown-item" href="#">주방소품</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link pe-5 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link pe-5 dropdown-toggle" href="#" id="navbarDropdown2" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
                         TABLE
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">과일바구니&바스켓</a></li>
-                        <li><a class="dropdown-item" href="#">쟁반&트레이</a></li>
-                        <li><a class="dropdown-item" href="#">컵&잔 글라스류</a></li>
-                        <li><a class="dropdown-item" href="#">숟가락&포크&나이프</a></li>
-                        <li><a class="dropdown-item" href="#">그릇&식기</a></li>
-                        <li><a class="dropdown-item" href="#">양념통&그라인더</a></li>
-                        <li><a class="dropdown-item" href="#">서빙&악세서리</a></li>
-                        <li><a class="dropdown-item" href="#">커피&티</a></li>
-                        <li><a class="dropdown-item" href="#">조식 용품</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link pe-5 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link pe-5 dropdown-toggle" href="#" id="navbarDropdown3" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
                         BAR & WINES
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">오프너&캡</a></li>
-                        <li><a class="dropdown-item" href="#">버켓&쿨러</a></li>
-                        <li><a class="dropdown-item" href="#">쉐이커</a></li>
-                        <li><a class="dropdown-item" href="#">악세서리</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link pe-5 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link pe-5 dropdown-toggle" href="#" id="navbarDropdown4" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
                         HOME
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">가구</a></li>
-                        <li><a class="dropdown-item" href="#">화장실</a></li>
-                        <li><a class="dropdown-item" href="#">디퓨저&방향제</a></li>
-                        <li><a class="dropdown-item" href="#">벽시계</a></li>
-                        <li><a class="dropdown-item" href="#">오피스</a></li>
-                        <li><a class="dropdown-item" href="#">인테리어소품</a></li>
-                        <li><a class="dropdown-item" href="#">애완용품</a></li>
-                        <li><a class="dropdown-item" href="#">크리스마스 용품</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link pe-5 dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    <a class="nav-link pe-5 dropdown-toggle" href="#" id="navbarDropdown5" role="button"
                        data-bs-toggle="dropdown" aria-expanded="false">
                         LIFESTYLE
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">100주년</a></li>
-                        <li><a class="dropdown-item" href="#">리미티드 에디션</a></li>
-                        <li><a class="dropdown-item" href="#">야외 용품</a></li>
+                        <li><a class="dropdown-item" href="#">Action</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
@@ -166,10 +148,13 @@
         <div class="coupon ml-auto">
             <a href="...">
                 <!--                <img src="..." alt="...">-->
-                <img src="https://user-images.githubusercontent.com/81312250/145675761-7c4dfa66-5ad2-46b2-8368-83104321c6a6.png" alt="">
+                <img src="https://user-images.githubusercontent.com/81312250/145675761-7c4dfa66-5ad2-46b2-8368-83104321c6a6.png"
+                     alt="">
             </a>
         </div>
 
+        <div class="me-5"></div>
+        <div class="me-5"></div>
     </nav>
 </div>
 
