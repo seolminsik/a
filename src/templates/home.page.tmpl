@@ -1,14 +1,30 @@
 {{template "base" .}}
 
 {{define "content"}}
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                <h1>This is the home page</h1>
-                <p>This is some text</p>
-				
-				<img src="/static/images/flowers.jpg" height="450" width="300">
-            </div>
+
+<!--<img src="/static/images/flowers.jpg" height="450" width="300">-->
+<br>
+
+<div id="main-carousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://user-images.githubusercontent.com/81312250/145679635-f35e5704-8a55-4046-a924-e95706d82987.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://user-images.githubusercontent.com/81312250/145679639-f58070e4-8a8f-4e9b-afdd-12af3cc7554d.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://user-images.githubusercontent.com/81312250/145679644-d52fa113-d753-4716-bc50-6091c8326098.jpg" class="d-block w-100" alt="...">
         </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
 {{end}}
